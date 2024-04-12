@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #6eb8f5;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            color: white;
+          }
+#logo {
+  animation: spin 10s linear infinite;
+}
+
+@keyframes spin {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+  .cabeça{
+    background-color: #065ac7;
+      box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.10);
+  }
+  .container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  img {
+    vertical-align: middle;
+  }
+  
+  h1 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px; 
+  }
+  
+  .info-box {
+   
+   
+    padding: 30px;
+    margin: 10px 0px;
+    text-align: left;
+   
+    margin-left: 250px;
+    margin-right: 200px;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .info-box2 {
+   
+    padding: 30px;
+    margin: 10px 0px;
+    text-align: left;
+    
+    margin-left: 250px;
+    margin-right: 200px;
+    color: white;
+    border-radius: 5px;
+  }
+  .info-box3 {
+    
+    
+    padding: 30px;
+
+    margin-left: 250px;
+    margin-right: 200px;
+    color: white;
+    border-radius: 5px;
+  }
+  #barra{
+    border: 5px solid 
+    #12f7ff;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .error {
+    width: 500px;
+    padding: 20px;
+    margin: 5px 0;
+    border: 5px solid #ccc;
+    border-radius: 3px;
+  }
+  select{
+    width: 500px;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  button{
+    background-color: #2196f3;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  input[type="text"]{
+
+    width: 500px;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  .conteudoBranco {
+    
+    color: black;
+    background-color: white; /* Define a cor de fundo como branco */
+    padding: 10px; /* Ajuste o espaçamento interno conforme necessário */
+    margin-bottom: 10px; /* Ajuste o espaçamento externo na parte inferior conforme necessário */
+    display: block; /* Faz com que os spans se comportem como blocos, permitindo a configuração de margens */
+    max-width: 36%; /* Limita a largura máxima dos spans a 70% do contêiner pai */
+    margin-left: auto; /* Centraliza o elemento no contêiner pai (opcional) */
+    margin-right: 20px; /* Centraliza o elemento no contêiner pai (opcional) */
+    /* Outros estilos que você deseja aplicar */
+    margin-top: -30px;
+    border-radius: 5px;
+    
+}
+
+p{
+  justify-content: center; /* Centralizar horizontalmente */
+    align-items: center; /* Centralizar verticalmente */
+}
